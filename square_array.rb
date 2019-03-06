@@ -1,6 +1,7 @@
-def square_array(array)
+def square_array(array) require 
+  
   array.each do |number| 
-    number << array.each ** 2 
+    number <<  ** 2 
   return number
 end
 end
